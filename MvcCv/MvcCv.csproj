@@ -2049,6 +2049,13 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\Ekran görüntüsü 2026-02-12 225920.png" />
+    <Content Include="Images\Ekran görüntüsü 2026-02-12 225933.png" />
+    <Content Include="Images\Ekran görüntüsü 2026-02-12 225940.png" />
+    <Content Include="Images\Ekran görüntüsü 2026-02-12 230040.png" />
+    <Content Include="Images\Ekran görüntüsü 2026-02-12 230056.png" />
+    <Content Include="Images\Ekran görüntüsü 2026-02-12 230107.png" />
+    <Content Include="Images\Ekran görüntüsü 2026-02-12 230132.png" />
     <Content Include="login-form-20\css\bootstrap.min.css" />
     <Content Include="login-form-20\css\bootstrap\mixins\_border-radius.css" />
     <Content Include="login-form-20\css\bootstrap\mixins\_reset-text.css" />
