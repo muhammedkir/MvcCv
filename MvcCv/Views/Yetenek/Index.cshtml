@@ -40,19 +40,19 @@
                                     <tbody>
                                         @foreach (var item in Model)
                                         {
-                                            if (item.Oran >= 0 && item.Oran <= 50)
+                                            if (item.Orani >= 0 && item.Orani <= 50)
                                             {
                                                 renk = "progress-bar bg-danger";
                                             }
-                                            if (item.Oran >= 51 && item.Oran <= 70)
+                                            if (item.Orani >= 51 && item.Orani <= 70)
                                             {
                                                 renk = "progress-bar bg-warning";
                                             }
-                                            if (item.Oran >= 71 && item.Oran <= 84)
+                                            if (item.Orani >= 71 && item.Orani <= 84)
                                             {
                                                 renk = "progress-bar bg-primary";
                                             }
-                                            if (item.Oran >= 85 && item.Oran <= 100)
+                                            if (item.Orani >= 85 && item.Orani <= 100)
                                             {
                                                 renk = "progress-bar bg-success";
                                             }
@@ -61,10 +61,10 @@
                                                 <td>@item.Yetenek</td>
                                                 <td>
                                                     <div class="progress progress-xs">
-                                                        <div class="@renk" style="width: @item.Oran%"></div>
+                                                        <div class="@renk" style="width: @item.Orani%"></div>
                                                     </div>
                                                 </td>
-                                                <td><span class="@renk">@item.Oran%</span></td>
+                                                <td><span class="@renk">@item.Orani%</span></td>
                                                 <td>
                                                     <a class="btn btn-info btn-sm" href="/Yetenek/YetenekDuzenle/@item.ID">
                                                         <i class="fas fa-pencil-alt">
